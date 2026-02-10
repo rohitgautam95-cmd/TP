@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coffee?</title>
+
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        font-family: 'Segoe UI', sans-serif;
+        background: url('sunflower.jpg') no-repeat center center/cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        background: rgba(255, 255, 255, 0.85);
+        padding: 35px 30px;
+        border-radius: 18px;
+        text-align: center;
+        box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+        animation: fadeIn 1.5s ease;
+    }
+
+    .text {
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 25px;
+        color: #333;
+    }
+
+    .buttons a {
+        display: inline-block;
+        margin: 10px;
+        padding: 12px 28px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        background: #25D366;
+        transition: transform 0.2s ease;
+    }
+
+    .buttons a:hover {
+        transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <div class="text">
+        Fadiya… coffee? ☕
+    </div>
+
+    <div class="buttons">
+        <a href="https://wa.me/91XXXXXXXXXX?text=Yes%20for%20coffee%20☕">Yes</a>
+        <a href="https://wa.me/91XXXXXXXXXX?text=Yes%20yes%20coffee%20sounds%20good%20☕">Yes</a>
+    </div>
+</div>
+
+</body>
+</html>
